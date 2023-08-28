@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Todo App</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Todos</h2>
+      <form id="form">
+        <div class="input-button">
+          <input
+            type="text"
+            autofocus
+            id="todos-input"
+            placeholder="Enter tasks here"
+          />
+        </div>
+        <button class="add-todo" type="submit" id="btn">
+          <i class="fas fa-plus"></i>
+        </button>
+      </form>
+      <div id="err"></div>
+
+      <div class="todos-container" id="todos-container"></div>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
