@@ -52,7 +52,7 @@ p {
 }
 
 .delete {
-  color: red;
+  color: rgb(139, 0, 0);
 }
 
 .content {
@@ -96,11 +96,12 @@ i {
   font-size: 18px;
   padding: 10px;
   border-radius: 7px;
-  background-color: red;
+  background: radial-gradient(aliceblue, lightblue, blue);
   color: #000;
   margin-left: 3px;
   cursor: pointer;
   padding-inline: 10px;
+  transition: all 0.5s ease-in-out;
 }
 
 .add-todo:hover {
