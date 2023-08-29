@@ -29,7 +29,7 @@ p {
 }
 
 .content p.checked::before {
-  background-image: url("./check.jpg");
+  background-image: url("./mark.jpg");
   background-size: contain;
   background-position: center;
 }
@@ -93,7 +93,6 @@ i {
 }
 
 .add-todo {
-  font-size: 18px;
   padding: 10px;
   border-radius: 7px;
   background: radial-gradient(aliceblue, lightblue, blue);
