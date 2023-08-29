@@ -20,6 +20,7 @@ p {
   cursor: pointer;
   top: 11px;
   left: 5px;
+  background-color: #f0f8ff;
 }
 
 .content p.checked {
@@ -95,15 +96,15 @@ i {
   font-size: 18px;
   padding: 10px;
   border-radius: 7px;
-  background-color: darkgreen;
-  color: aliceblue;
+  background-color: red;
+  color: #000;
   margin-left: 3px;
   cursor: pointer;
   padding-inline: 10px;
 }
 
 .add-todo:hover {
-  background-color: red;
+  opacity: 0.7;
 }
 
 .input-button input {
@@ -115,7 +116,7 @@ i {
   font-weight: bold;
   outline: none;
   display: block;
-  padding-inline-start: 30px;
+  padding-inline-start: 10px;
 }
 
 #form {
